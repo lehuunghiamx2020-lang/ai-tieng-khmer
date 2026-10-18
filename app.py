@@ -9,8 +9,8 @@ API_KEY = "AQ.Ab8RN6L3U3G1dI7OHdZhTdtQ4GVPiHgicRHU5uZ8KFzQ2m3rhA"
 client = genai.Client(api_key=API_KEY)
 
 # Cấu hình giao diện ứng dụng
-st.set_page_config(page_title="AI Dạy Tiếng Khmer", page_icon="🇰🇭")
-st.title("🇰🇭 Trợ Lý Giáo Viên Tiếng Khmer")
+st.set_page_config(page_title="AI Dạy Tiếng Khmer")
+st.title("Trợ Lý Giáo Viên Tiếng Khmer")
 st.caption("AI hỗ trợ học từ vựng, ngữ pháp và giao tiếp tiếng Khmer")
 
 # Kịch bản đóng vai (System Instruction) cho AI
